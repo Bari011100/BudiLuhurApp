@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/budiluhur"></ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"></TextView>
+
+        <EditText
+            android:id="@+id/txt_fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input Full Name "></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"></TextView>
+
+        <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input UserName "></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email "></TextView>
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input Email Address "
+            android:inputType="textEmailAddress"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"></TextView>
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input Password "
+            android:inputType="textPassword"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Phone "></TextView>
+
+        <EditText
+            android:id="@+id/txt_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input Mobile Phone  "
+            android:inputType="number"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"></TextView>
+
+        <RadioGroup
+            android:id="@+id/RGgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/RBmale"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Laki Laki">
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/RBfamle"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Perempuan">
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </Button>
+
+
+</LinearLayout>
